@@ -1,0 +1,12 @@
+{
+  "host": {
+    "protocol": "http",
+    "url": "192.168.3.195",
+    "port": "8080"
+  },
+  "editor": {
+    "protocol": "http",
+    "url": "192.168.3.195",
+    "port": "80"
+  }
+}
