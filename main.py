@@ -1,8 +1,8 @@
+# -*- encoding: utf-8 -*-
 from bottle import route, run, template, get, post, static_file, request  # подключение фреймворка и необходимых компонентов
 from os import listdir  # подключение библиотеки для просмотра каталогов
 import json
 import pprint
-import requests
 
 config = json.loads(open('./config.json').read())
 host_url = config['host']['protocol'] + "://" + config['host']['url'] + ":" + config['host']['port']
